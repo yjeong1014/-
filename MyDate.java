@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 
-//시간날짜갖고오는 클래스~
+//시간
 public class MyDate {
 	public String time() {
 		LocalTime now=LocalTime.now();
@@ -15,7 +15,7 @@ public class MyDate {
 		System.out.println(formatedNow);
 		return  formatedNow;
 	}
-	
+//날짜
 	public void date() {
 		LocalDate now=LocalDate.now();
 		DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy/MM/dd   ");
