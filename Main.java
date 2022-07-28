@@ -52,8 +52,8 @@ public class Main {
 				for(int i=0;i<posts.size();i++) {
 					System.out.print(posts.get(i).no+".");
 					System.out.print("["+posts.get(i).title+"]");
-					System.out.println("작성시간:"+posts.get(i).time);
-					System.out.println(" 작성자:"+posts.get(i).id);
+					System.out.println("▶Writing time:"+posts.get(i).time);
+					System.out.println("▶Writer:"+posts.get(i).id);
 					
 				}
 				break;
@@ -94,7 +94,7 @@ public class Main {
 				break;
 			//글 수정
 			case"5":
-				System.out.println("▶수정할 글의 작성자 id를 입력해주세요");
+				System.out.println("▶Please enter the AUTHOR ID of the article to be modified");
 				String edit_id = sc.next();
 				for(int i=0; i< posts.size();i++) {
 				if(posts.get(i).id.equals(edit_id)) {
