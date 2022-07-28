@@ -67,8 +67,8 @@ public class Main {
 					if(posts.get(i).no == readNo) {
 						System.out.print(posts.get(i).no+".");
 						System.out.println("["+posts.get(i).title+"]");
-						System.out.println("작성자ID:"+posts.get(i).id);
-						System.out.println("작성시간:"+posts.get(i).time);
+						System.out.println("ID:"+posts.get(i).id);
+						System.out.println("time:"+posts.get(i).time);
 						System.out.println(posts.get(i).con);
 						
 					}
